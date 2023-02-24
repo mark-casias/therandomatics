@@ -1,5 +1,13 @@
+<script>
+  import Button from "../lib/components/Button/Button.svelte";
+</script>
+
 <div class="header">
   <img src="/logo-square.png" alt="The Randomatics Logo" />
+  <div class="menu">
+    <Button href="https://www.facebook.com/therandomatics" text="Facebook" />
+    <Button href="https://www.youtube.com/therandomatics505" text="Videos"></Button>
+  </div>
 </div>
 <div class="main">
   <slot />
@@ -60,6 +68,12 @@ var $mcj = jQuery.noConflict(true);
 <style>
   .header {
     text-align: center;
+  }
+
+  .menu {
+    margin: .5rem;
+    padding: .5rem 0;
+    background-color: darkturquoise;
   }
   .main {
     width: 75vw;
