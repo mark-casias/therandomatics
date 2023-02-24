@@ -7,7 +7,8 @@
   <img src="/logo-square.png" alt="The Randomatics Logo" />
   <div class="menu">
     <Button href="https://www.facebook.com/therandomatics" text="Facebook" />
-    <Button href="https://www.youtube.com/therandomatics505" text="Videos"></Button>
+    <Button href="https://www.instagram.com/therandomatics" text="Instagram" />
+    <Button href="https://www.youtube.com/therandomatics505" text="Videos" />
   </div>
 </div>
 <div class="main">
