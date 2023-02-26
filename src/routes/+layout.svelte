@@ -18,9 +18,13 @@
   <Signup />
 </footer>
 
-<style>
+<style lang="scss">
   .header {
     text-align: center;
+
+    img {
+      max-width: 80vw;
+    }
   }
 
   .menu {
