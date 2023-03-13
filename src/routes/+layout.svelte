@@ -2,6 +2,11 @@
   import Button from "../lib/components/Button/Button.svelte";
   import Signup from "../lib/components/Signup/Signup.svelte";
 </script>
+<svelte:head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
+</svelte:head>
 
 <div class="header">
   <img src="/logo-square.png" alt="The Randomatics Logo" />
@@ -18,7 +23,13 @@
   <Signup />
 </footer>
 
-<style lang="scss">
+<style lang="scss" global>
+    body {
+      font-family: 'League Spartan', sans-serif;
+      color: #44e0cf;
+      background-color: black;
+      font-size: 1.5rem;
+    }
   .header {
     text-align: center;
 

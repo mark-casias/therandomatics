@@ -26,13 +26,7 @@ const mvimage = {
   <li><Show place="Lazy Lizard Grill" date="April 1st" time="6 - 9:30p" image={llimage}/></li>
 </ul>
 
-<style lang="scss" global>
-  :global() {
-    body {
-      color: #44e0cf;
-      background-color: black;
-    }
-  }
+<style lang="scss">
 
   .upcoming {
     display: flex;
