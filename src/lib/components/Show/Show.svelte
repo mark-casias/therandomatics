@@ -18,7 +18,7 @@
 
 <style lang="scss">
   .show {
-    margin: 0 2rem;
+    margin: 1rem 2rem;
     height: 100%;
     border: 1px solid red;
     div {

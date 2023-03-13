@@ -38,9 +38,11 @@ const mvimage = {
     display: flex;
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
 
     li {
       align-self: stretch;
+      margin: 1rem;
     }
   }
   p {color: white}
