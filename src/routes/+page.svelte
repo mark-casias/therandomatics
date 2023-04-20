@@ -1,6 +1,11 @@
 <script>
 import Show from "../lib/components/Show/Show.svelte";
 
+const leones = {
+  src: "images/dos-leones-05-06-23.jpg",
+  alt: "Opening for the Dos Leones party on May 6th at 4pm",
+};
+
 const lazylizard = {
   src: "images/lazy-lizard-05-20-23.jpg",
   alt: "The Randomatics are playing at The Lazy Lizard on May 20th starting at 6pm.",
@@ -21,6 +26,7 @@ const alvaradoimage = {
 
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
+  <li><Show place="Dos Leones" date="May 6th" time="4pm" image={leones}/></li>
   <li><Show place="Lazy Lizard" date="May 20th" time="6pm" image={lazylizard}/></li>
   <li><Show place="Food Truck Thursdays at Altura Park" date="June 22nd" time="5p - Dusk" image={alturaimage} /></li>
   <li><Show place="Thursday Food Truck Fest at Alvarado Park" date="July 13th" time="5p - Dusk" image={alvaradoimage}/></li>
