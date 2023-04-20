@@ -26,10 +26,10 @@ const alvaradoimage = {
 
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
-  <li><Show place="Dos Leones" date="May 6th" time="4pm" image={leones}/></li>
-  <li><Show place="Lazy Lizard" date="May 20th" time="6pm" image={lazylizard}/></li>
-  <li><Show place="Food Truck Thursdays at Altura Park" date="June 22nd" time="5p - Dusk" image={alturaimage} /></li>
-  <li><Show place="Thursday Food Truck Fest at Alvarado Park" date="July 13th" time="5p - Dusk" image={alvaradoimage}/></li>
+  <Show place="Dos Leones" date="05/06/2023" time="16:00:00" image={leones}/>
+  <Show place="Lazy Lizard" date="05/20/2023" time="18:00:00" image={lazylizard}/>
+  <Show place="Food Truck Thursdays at Altura Park" date="06/22/2023" time="17:00:00" image={alturaimage} />
+  <Show place="Thursday Food Truck Fest at Alvarado Park" date="07/13/2023" time="17:00:00" image={alvaradoimage}/>
 </ul>
 
 <style lang="scss">
@@ -39,11 +39,7 @@ const alvaradoimage = {
     justify-content: center;
     list-style: none;
     flex-wrap: wrap;
-
-    li {
-      align-self: stretch;
-      margin: 1rem;
-    }
   }
+
   p {color: white}
 </style>

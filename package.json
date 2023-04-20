@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"date-fns": "^2.29.3",
 		"sass": "^1.57.1",
 		"svelte-preprocess": "^5.0.0"
 	}

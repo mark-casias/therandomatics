@@ -1,22 +1,36 @@
 <script>
+  import { format } from 'date-fns';
   export let date;
   export let place;
   export let time;
   export let image;
+
+  const showDate = new Date(`${date}, ${time}`);
+  const nowDate = new Date().getTime();
+  const isLater = showDate.getTime() > nowDate;
 </script>
 
-<div class="show">
-  <div class="show__date">{date} {time}</div>
-  <div class="show__place">
-  {#if image}
-    <img src={image.src} alt={image.alt} />
-  {:else}
-    {place}
-  {/if}
+{#if isLater }
+<li>
+  <div class="show">
+    <div class="show__date">{format(showDate, 'LLL do - hb')}</div>
+    <div class="show__place">
+    {#if image}
+      <img src={image.src} alt={image.alt} />
+    {:else}
+      {place}
+    {/if}
+    </div>
   </div>
-</div>
+</li>
+{/if}
 
 <style lang="scss">
+
+  li {
+    align-self: stretch;
+    margin: 1rem;
+   }
   .show {
     margin: 1rem 2rem;
     height: 100%;
@@ -35,10 +49,6 @@
     }
     &__place {
       font-size: 2rem;
-    }
-    &__time {
-      background-color: black;
-      color: white;
     }
   }
 </style>
