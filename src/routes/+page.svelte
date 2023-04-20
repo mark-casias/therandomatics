@@ -1,17 +1,17 @@
 <script>
 import Show from "../lib/components/Show/Show.svelte";
 
-const llimage = {
-  src: "images/lazy-lizard-april-1.png",
-  alt: "The Randomatics are playing at The Lazy Lizard on April 1st starting at 6pm.",
+const lazylizard = {
+  src: "images/lazy-lizard-05-20-23.jpg",
+  alt: "The Randomatics are playing at The Lazy Lizard on May 20th starting at 6pm.",
 };
-const nmimage = {
-  src: "images/nm-guitar-show-2023.jpg",
-  alt: "the band is playing at the NM guitar show on March 26th at 4pm"
+const alturaimage = {
+  src: "images/altura-park-6-22-23.jpg",
+  alt: "The Randomatics at Food Truck Thursdays on June 22nd"
 }
-const mvimage = {
-  src: "images/monte-vista-march-2023.jpg",
-  alt: "the band is playing at the Monte Vista Fire Station on March 31st starting at 7pm"
+const alvaradoimage = {
+  src: "images/alvarado-park-7-13-23.jpg",
+  alt: "The Randomatics at Thursday Food Truck Fest on July 13th"
 }
 </script>
 
@@ -21,9 +21,9 @@ const mvimage = {
 
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
-  <li><Show place="NM Guitar Show" date="March 26th" time="4pm" image={nmimage}/></li>
-  <li><Show place="Montevista Fire Station" date="March 31st" time="7 - 10p" image={mvimage} /></li>
-  <li><Show place="Lazy Lizard Grill" date="April 1st" time="6 - 9:30p" image={llimage}/></li>
+  <li><Show place="Lazy Lizard" date="May 20th" time="6pm" image={lazylizard}/></li>
+  <li><Show place="Food Truck Thursdays at Altura Park" date="June 22nd" time="5p - Dusk" image={alturaimage} /></li>
+  <li><Show place="Thursday Food Truck Fest at Alvarado Park" date="July 13th" time="5p - Dusk" image={alvaradoimage}/></li>
 </ul>
 
 <style lang="scss">
