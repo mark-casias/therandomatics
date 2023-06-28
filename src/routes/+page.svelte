@@ -1,18 +1,14 @@
 <script>
 import Show from "../lib/components/Show/Show.svelte";
 
-const leones = {
-  src: "images/dos-leones-05-06-23.jpg",
-  alt: "Opening for the Dos Leones party on June 10th at 4pm",
-};
-
-const alturaimage = {
-  src: "images/altura-park-6-22-23.jpg",
-  alt: "The Randomatics at Food Truck Thursdays on June 22nd"
-}
 const alvaradoimage = {
   src: "images/alvarado-park-7-13-23.jpg",
   alt: "The Randomatics at Thursday Food Truck Fest on July 13th"
+}
+
+const lizard0823 = {
+  src: "images/lazy-lizard-08-12-23.jpg",
+  alt: "The Randomatics return to the Lazy Lizard on August 12th"
 }
 </script>
 
@@ -22,9 +18,8 @@ const alvaradoimage = {
 
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
-  <Show place="Dos Leones (Rescheduled)" date="06/10/2023" time="16:00:00" image={leones}/>
-  <Show place="Food Truck Thursdays at Altura Park" date="06/22/2023" time="17:00:00" image={alturaimage} />
   <Show place="Thursday Food Truck Fest at Alvarado Park" date="07/13/2023" time="17:00:00" image={alvaradoimage}/>
+  <Show place="The Lazy Lizard" date="8/12/2023" time="18:00:00" image={lizard0823}/>
 </ul>
 
 <style lang="scss">
