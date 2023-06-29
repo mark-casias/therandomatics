@@ -8,9 +8,9 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^1.0.0",
+		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/kit": "^1.0.0",
-		"svelte": "^3.54.0",
+		"svelte": "^4.0.1",
 		"svelte-preprocess-sass": "^2.0.1",
 		"vite": "^4.0.0"
 	},
