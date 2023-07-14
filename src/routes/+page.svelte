@@ -10,6 +10,11 @@ const lizard0823 = {
   src: "images/lazy-lizard-08-12-23.jpg",
   alt: "The Randomatics return to the Lazy Lizard on August 12th"
 }
+
+const mollys0909 = {
+  src: "images/rando-mollys.jpg",
+  alt: "The Randomatics first show at Molly's Bar and Grill on Setpember 9th"
+}
 </script>
 
 <h1>Greetings from The Randomatics</h1>
@@ -20,6 +25,7 @@ const lizard0823 = {
 <ul class="upcoming">
   <Show place="Thursday Food Truck Fest at Alvarado Park" date="07/13/2023" time="17:00:00" image={alvaradoimage}/>
   <Show place="The Lazy Lizard" date="8/12/2023" time="18:00:00" image={lizard0823}/>
+  <Show place="Molly's Bar and Lounge" date="9/9/2023" time="13:00:00" image={mollys0909} />
 </ul>
 
 <style lang="scss">
