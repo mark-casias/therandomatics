@@ -15,6 +15,11 @@ const mollys0909 = {
   src: "images/rando-mollys.jpg",
   alt: "The Randomatics first show at Molly's Bar and Grill on Setpember 9th"
 }
+
+const brewlab081023 = {
+  src: "images/brewlab-8-10-23.png",
+  alt: "The Randomatics at Brewlab in Rio Rancho on August 10th"
+}
 </script>
 
 <h1>Greetings from The Randomatics</h1>
@@ -24,6 +29,7 @@ const mollys0909 = {
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
   <Show place="Thursday Food Truck Fest at Alvarado Park" date="07/13/2023" time="17:00:00" image={alvaradoimage}/>
+  <Show place="The Brewlab in Rio Rancho" date="08/10/2023" time="19:00:00" image={brewlab081023} />
   <Show place="The Lazy Lizard" date="8/12/2023" time="18:00:00" image={lizard0823}/>
   <Show place="Molly's Bar and Lounge" date="9/9/2023" time="13:00:00" image={mollys0909} />
 </ul>
