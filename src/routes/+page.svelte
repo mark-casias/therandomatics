@@ -11,6 +11,11 @@ const lizard0823 = {
   alt: "The Randomatics return to the Lazy Lizard on August 12th"
 }
 
+const lizard1123 = {
+  src: "images/lazy-lizard-11-11-23.jpg",
+  alt: "The anniversary of our first show at the Lazy Lizard"
+}
+
 const mollys0909 = {
   src: "images/rando-mollys.jpg",
   alt: "The Randomatics first show at Molly's Bar and Grill on Setpember 9th"
@@ -32,6 +37,8 @@ const brewlab081023 = {
   <Show place="The Brewlab in Rio Rancho" date="08/10/2023" time="19:00:00" image={brewlab081023} />
   <Show place="The Lazy Lizard" date="8/12/2023" time="18:00:00" image={lizard0823}/>
   <Show place="Molly's Bar and Lounge" date="9/9/2023" time="13:00:00" image={mollys0909} />
+
+  <Show place="The Lazy Lizard" date="11/11/2023" time="18:00:00" image={lizard1123} />
 </ul>
 
 <style lang="scss">
