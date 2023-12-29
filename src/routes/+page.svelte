@@ -25,6 +25,16 @@ const brewlab081023 = {
   src: "images/brewlab-8-10-23.png",
   alt: "The Randomatics at Brewlab in Rio Rancho on August 10th"
 }
+
+const lizard240127 = {
+  src: "images/ll-24-01-27.jpg",
+  alt: "The Randomatics return to Lazy Lizard on January 27th"
+};
+
+const thirsty240202 = {
+  src: "images/thirsty-eye-24-02-02.jpg",
+  alt: "The Randomatics first show at Thirsty Eye on February 2nd"
+}
 </script>
 
 <h1>Greetings from The Randomatics</h1>
@@ -33,12 +43,8 @@ const brewlab081023 = {
 
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
-  <Show place="Thursday Food Truck Fest at Alvarado Park" date="07/13/2023" time="17:00:00" image={alvaradoimage}/>
-  <Show place="The Brewlab in Rio Rancho" date="08/10/2023" time="19:00:00" image={brewlab081023} />
-  <Show place="The Lazy Lizard" date="8/12/2023" time="18:00:00" image={lizard0823}/>
-  <Show place="Molly's Bar and Lounge" date="9/9/2023" time="13:00:00" image={mollys0909} />
-
-  <Show place="The Lazy Lizard" date="11/11/2023" time="18:00:00" image={lizard1123} />
+  <Show place="Lazy Lizard" date="01/27/2024" time="18:00:00" image={lizard240127} />
+  <Show place="Thirsty Eye Brewing" date="02/02/2024" time="18:00:00" image={thirsty240202} />
 </ul>
 
 <style lang="scss">

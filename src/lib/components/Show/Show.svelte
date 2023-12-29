@@ -32,7 +32,7 @@
     margin: 1rem;
    }
   .show {
-    margin: 1rem 2rem;
+    margin: .5rem;
     height: 100%;
     border: 1px solid red;
     div {
