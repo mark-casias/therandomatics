@@ -1,9 +1,10 @@
 <script>
   export let href;
   export let text;
+  export let target = '_blank';
 </script>
 
-<a href={href} target="_blank" rel="noreferrer">{text}</a>
+<a href={href} target={target} rel="noreferrer">{text}</a>
 
 <style>
   a {
