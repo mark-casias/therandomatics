@@ -11,8 +11,13 @@ const thirsty240202 = {
   alt: "The Randomatics first show at Thirsty Eye on February 2nd"
 }
 
+const bowling240218 = {
+  src: "images/20240218-holiday_bowl.jpg",
+  alt: "The Randomatics at Holiday Bowl!"
+};
+
 const hopper240503 = {
-  src: "images/20240503--the-hopper.png",
+  src: "images/hopper-2.jpg",
   alt: "The Randomatics at The Hopper on May 3rd"
 }
 </script>
@@ -25,6 +30,7 @@ const hopper240503 = {
 <ul class="upcoming">
   <Show place="Lazy Lizard" date="01/27/2024" time="18:00:00" image={lizard240127} />
   <Show place="Thirsty Eye Brewing" date="02/02/2024" time="18:00:00" image={thirsty240202} />
+  <Show place="Skidmore's Holiday Bowl" date="02/18/2024" time="14:00:00" image={bowling240218} />
   <Show place="The Hopper" date="05/03/2024" time="18:00:00" image={hopper240503} />
 </ul>
 
