@@ -11,6 +11,11 @@ const thirsty240202 = {
   alt: "The Randomatics first show at Thirsty Eye on February 2nd"
 }
 
+const kactus20240215 = {
+  src: "images/kaktus_gig_poster.png",
+  alt: "The Randomatics at Kaktus Brewing on February 15th."
+};
+
 const bowling240218 = {
   src: "images/20240218-holiday_bowl.jpg",
   alt: "The Randomatics at Holiday Bowl!"
@@ -28,8 +33,7 @@ const hopper240503 = {
 
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
-  <Show place="Lazy Lizard" date="01/27/2024" time="18:00:00" image={lizard240127} />
-  <Show place="Thirsty Eye Brewing" date="02/02/2024" time="18:00:00" image={thirsty240202} />
+  <Show place="Kaktus Brewing" date="02/15/2024" time="18:30:00" image={kactus20240215} />
   <Show place="Skidmore's Holiday Bowl" date="02/18/2024" time="14:00:00" image={bowling240218} />
   <Show place="The Hopper" date="05/03/2024" time="18:00:00" image={hopper240503} />
 </ul>
