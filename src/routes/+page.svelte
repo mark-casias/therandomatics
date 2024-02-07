@@ -2,7 +2,7 @@
 import Show from "../lib/components/Show/Show.svelte";
 
 const kactus20240215 = {
-  src: "images/kaktus_gig_poster.png",
+  src: "images/kaktus-brewing-2.jpg",
   alt: "The Randomatics at Kaktus Brewing on February 15th."
 };
 
