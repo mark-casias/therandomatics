@@ -20,6 +20,16 @@ const lazylizard240511 = {
   src: "images/lazy-lizard-240511.jpg",
   alt: "The Randomatics at Lazy Lizard Brewing"
 }
+
+const holidayBowl2 = {
+  src: "images/holiday_bowl_june_poster.png",
+  alt: "The Randomatics return to Skidmore's Holiday Bowl"
+}
+
+const brewlab = {
+  src: "images/brewlab_aug_poster_2024.png",
+  alt: "The Randomatics live at the Albuquerque Brew Lab"
+}
 </script>
 
 <h1>Greetings from The Randomatics</h1>
@@ -32,6 +42,8 @@ const lazylizard240511 = {
   <Show place="Lizard Tail Brewing" date="04/20/2024" time="19:00:00" image={lizardtail240420} />
   <Show place="The Hopper" date="05/03/2024" time="18:00:00" image={hopper240503} />
   <Show place="Lazy Lizard Brewing" date="05/13/2024" time="18:00:00" image={lazylizard240511} />
+  <Show place="Skidmore's Holiday Bowl" date="06/09/2024" time="14:00:00" image={holidayBowl2} />
+  <Show place="Brew Lab Albuquerque" date="08/10/2024" time="19:00:00" image={brewlab} />
 </ul>
 
 <style lang="scss">
