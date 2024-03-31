@@ -24,7 +24,6 @@
   </div>
 </li>
 {/if}
-
 <style lang="scss">
 
   li {

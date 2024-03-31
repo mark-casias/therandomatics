@@ -39,7 +39,6 @@ const brewlab = {
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
   <Show place="Thirsty Eye Brewing" date="04/05/2024" time="19:00:00" image={thirsty240405} />
-  <Show place="Lizard Tail Brewing" date="04/20/2024" time="19:00:00" image={lizardtail240420} />
   <Show place="The Hopper" date="05/03/2024" time="18:00:00" image={hopper240503} />
   <Show place="Lazy Lizard Brewing" date="05/13/2024" time="18:00:00" image={lazylizard240511} />
   <Show place="Skidmore's Holiday Bowl" date="06/09/2024" time="14:00:00" image={holidayBowl2} />
