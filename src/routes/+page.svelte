@@ -1,11 +1,6 @@
 <script>
 import Show from "../lib/components/Show/Show.svelte";
 
-const thirsty240405 = {
-  src: "images/thirsty_eye_april_poster.jpg",
-  alt: "The Randomatics return to Thirsty Eye"
-}
-
 const hopper240503 = {
   src: "images/hopper-2.jpg",
   alt: "The Randomatics at The Hopper on May 3rd"
@@ -30,6 +25,11 @@ const brewlab = {
   src: "images/brewlab_aug_poster_2024.png",
   alt: "The Randomatics live at the Albuquerque Brew Lab"
 }
+
+const farmers = {
+  src: "images/farmers.jpg",
+  alt: "The Randomatics return to Kactus Brewing for the Farmhouse Ale event"
+}
 </script>
 
 <h1>Greetings from The Randomatics</h1>
@@ -38,11 +38,10 @@ const brewlab = {
 
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
-  <Show place="Thirsty Eye Brewing" date="04/05/2024" time="19:00:00" image={thirsty240405} />
   <Show place="The Hopper" date="05/03/2024" time="18:00:00" image={hopper240503} />
   <Show place="Downtown Growers Market" date="05/11/2024" time="10:00:00" image={growers240511} />
   <Show place="Lazy Lizard Brewing" date="05/11/2024" time="18:00:00" image={lazylizard240511} />
-  <Show place="Skidmore's Holiday Bowl" date="06/09/2024" time="14:00:00" image={holidayBowl2} />
+  <Show place="Kaktus Brewing" date="6/15/2024" time="12:00:00" image={farmers} />
   <Show place="Brew Lab Albuquerque" date="08/10/2024" time="19:00:00" image={brewlab} />
 </ul>
 
