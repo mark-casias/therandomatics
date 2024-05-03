@@ -14,6 +14,7 @@
     <Button href="https://www.facebook.com/therandomatics" text="Facebook" />
     <Button href="https://www.instagram.com/the_randomatics" text="Instagram" />
     <Button href="https://www.youtube.com/therandomatics505" text="Videos" />
+    <Button href="https://soundcloud.com/therandomatics" text="Soundcloud" />
     <Button href="mailto:therandomatics@gmail.com" text="Contact" target="_self" />
   </div>
 </div>
