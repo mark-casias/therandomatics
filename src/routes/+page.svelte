@@ -1,23 +1,8 @@
 <script>
 import Show from "../lib/components/Show/Show.svelte";
 
-const hopper240503 = {
-  src: "images/hopper-2.jpg",
-  alt: "The Randomatics at The Hopper on May 3rd"
-}
-
-const growers240511 = {
-  src: "images/growers_mkt_poster_1.png",
-  alt: "The Randomatics play the Downtown Growers Market."
-}
-
-const lazylizard240511 = {
-  src: "images/lazy-lizard-240511.jpg",
-  alt: "The Randomatics at Lazy Lizard Brewing"
-}
-
 const holidayBowl2 = {
-  src: "images/holiday_bowl_june_poster.png",
+  src: "images/holiday_bowl_july_poster1.jpg",
   alt: "The Randomatics return to Skidmore's Holiday Bowl"
 }
 
@@ -30,6 +15,11 @@ const farmers = {
   src: "images/farmers.jpg",
   alt: "The Randomatics return to Kactus Brewing for the Farmhouse Ale event"
 }
+
+const thirsy = {
+  src: "images/thirsty_eye_aug_gig_2.png",
+  alt: "The Randomatics are back at Thirsty Eye Brewing!"
+}
 </script>
 
 <h1>Greetings from The Randomatics</h1>
@@ -38,10 +28,9 @@ const farmers = {
 
 <h2>Upcoming Shows</h2>
 <ul class="upcoming">
-  <Show place="The Hopper" date="05/03/2024" time="18:00:00" image={hopper240503} />
-  <Show place="Downtown Growers Market" date="05/11/2024" time="10:00:00" image={growers240511} />
-  <Show place="Lazy Lizard Brewing" date="05/11/2024" time="18:00:00" image={lazylizard240511} />
   <Show place="Kaktus Brewing" date="6/15/2024" time="12:00:00" image={farmers} />
+  <Show place="Skidmore's Bowling" date="7/28/2024" time="14:00:00" image={holidayBowl2} />
+  <Show place="Thirsty Eye" date="08/03/2024" time="19:00:00" image={thirsy} />
   <Show place="Brew Lab Albuquerque" date="08/10/2024" time="19:00:00" image={brewlab} />
 </ul>
 
